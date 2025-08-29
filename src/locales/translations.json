@@ -1,0 +1,49 @@
+{
+    "en": {
+      "app": {
+        "title": "Drop Me, Your Recycling Partner!",
+        "welcome": "Welcome to Drop Me, Your Recycling Partner!",
+        "about_paragraph_1": "At Drop Me, we empower you to make sustainable choices effortlessly. Our app is designed to make recycling rewarding, convenient, and impactful. You can easily track your recycling contributions, earn points, and participate in ongoing community competitions through Drop Me. Our goal is to create a cleaner, greener future by working together.",
+        "about_paragraph_2": "Whether you're a first-time recycler or a seasoned environmental advocate, Drop Me is here to support you in every step of your journey. Join us in transforming waste into opportunity and improving our communities!"
+      },
+      "privacy_policy": {
+        "title": "Privacy Policy",
+        "subtitle": "Your Privacy, Our Priority",
+        "intro": "At Drop Me, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains what data we collect, how it's used, and how you can manage your information.",
+        "information_we_collect_heading": "Information We Collect:",
+        "information_we_collect_paragraph_1": "We collect information to provide and improve our services, including:",
+        "information_we_collect_personal_info": "Personal Information like name, email, and contact details when you create an account.",
+        "information_we_collect_usage_data": "Usage Data to help us enhance your experience, including interactions with our app, points earned, and recycling history.",
+        "how_we_use_info_heading": "How We Use Your Information:",
+        "how_we_use_info_item_1": "To deliver, personalize, and improve Drop Me services.",
+        "how_we_use_info_item_2": "To communicate with you about updates, offers, and achievements.",
+        "how_we_use_info_item_3": "To maintain the security and integrity of our app.",
+        "your_control_heading": "Your Control Over Your Data:",
+        "your_control_paragraph_1": "You can access and manage your data at any time. If you wish to delete your account or have questions regarding your information, please contact us at hello@dropmeeg.com"
+      }
+    },
+    "ar": {
+      "app": {
+        "title": "دروب مي، شريكك في إعادة التدوير!",
+        "welcome": "مرحباً بك في Drop Me، شريكك في إعادة التدوير!",
+        "about_paragraph_1": "في Drop Me، نؤمن بتمكينك لاتخاذ خيارات مستدامة بسهولة. تم تصميم تطبيقنا لجعل إعادة التدوير مجزية، مريحة، وذات تأثير. من خلال Drop Me، يمكنك بسهولة تتبع مساهماتك في إعادة التدوير، كسب النقاط، والمشاركة في المسابقات المجتمعية. هدفنا هو خلق مستقبل أنظف وأكثر خضرة من خلال العمل معاً.",
+        "about_paragraph_2": "سواء كنت تقوم بإعادة التدوير لأول مرة أو كنت من المدافعين المخضرمين عن البيئة، فإن Drop Me هنا لدعمك في كل خطوة من رحلتك. انضم إلينا في تحويل النفايات إلى فرص وتحسين مجتمعاتنا!"
+      },
+      "privacy_policy": {
+        "title": "سياسة الخصوصية",
+        "subtitle": "خصوصيتك، أولويتنا",
+        "intro": "في Drop Me، نحترم خصوصيتك ونتعهد بحماية معلوماتك الشخصية. تشرح سياسة الخصوصية هذه البيانات التي نجمعها، كيفية استخدامها، وكيف يمكنك إدارة معلوماتك.",
+        "information_we_collect_heading": "المعلومات التي نجمعها",
+        "information_we_collect_paragraph_1": "نجمع المعلومات لتقديم وتحسين خدماتنا، بما في ذلك:",
+        "information_we_collect_personal_info": "المعلومات الشخصية مثل الاسم والبريد الإلكتروني وتفاصيل الاتصال عند إنشاء حساب.",
+        "information_we_collect_usage_data": "بيانات الاستخدام لمساعدتنا في تحسين تجربتك، بما في ذلك التفاعلات مع التطبيق، النقاط المكتسبة، وتاريخ إعادة التدوير.",
+        "how_we_use_info_heading": "كيفية استخدامنا لمعلوماتك",
+        "how_we_use_info_item_1": "لتقديم، تخصيص، وتحسين خدمات Drop Me",
+        "how_we_use_info_item_2": "للتواصل معك حول التحديثات، العروض، والإنجازات.",
+        "how_we_use_info_item_3": "للحفاظ على أمان وسلامة التطبيق.",
+        "your_control_heading": "تحكمك في بياناتك:",
+        "your_control_paragraph_1": "يمكنك الوصول إلى بياناتك وإدارتها في أي وقت. إذا كنت ترغب في حذف حسابك أو لديك استفسارات بخصوص معلوماتك، يرجى التواصل معنا عبر hello@dropmeeg.com"
+      }
+    }
+  }
+  
