@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import translations from "../locales/translations.json";
 
-export default function ContentCard() {
-  const [lang, setLang] = useState("en");
+export default function ContentCard({lang}) {
   const content = translations[lang].privacy_policy;
 
   return (
