@@ -9,7 +9,7 @@ export default function ContentCard() {
     <>
       <div
         dir={lang == "en" ? "ltr" : "rtl"}
-        className="rounded-2xl bg-secondary-color h-200 p-6 mt-4 mb-4 md:mt-6 md:mb-6 text-justify"
+        className="rounded-2xl bg-secondary-color p-6 mt-4 mb-4 md:mt-6 md:mb-6 text-justify"
       >
         {/* The heading of the content */}
         <div className="text-center">
@@ -76,6 +76,23 @@ export default function ContentCard() {
             <li>{content.how_we_use_info_item_2}</li>
             <li>{content.how_we_use_info_item_3}</li>
           </ul>
+        </div>
+        {/* Your control over your data */}
+        <div className="">
+          <h3 className="font-semibold text-xl md:text-2xl mb-2 text-primary-color">
+            {content.your_control_heading}
+          </h3>
+          <p className="text-text-color md:text-lg">
+            {content.your_control_paragraph_1}
+          </p>
+          <div className="mt-4 px-4 py-4 rounded-lg bg-white border-b-3 border-orange-500">
+            <a
+              href="mailto:hello@dropmeeg.com"
+              className="font-semibold text-lg text-primary-color hover:text-hover-color transition"
+            >
+              hello@dropmeeg.com
+            </a>
+          </div>
         </div>
       </div>
     </>
