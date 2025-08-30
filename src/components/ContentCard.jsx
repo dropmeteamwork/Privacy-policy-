@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import translations from "../locales/translations.json";
 
 export default function ContentCard() {
-  const [lang, setLang] = useState("ar");
+  const [lang, setLang] = useState("en");
   const content = translations[lang].privacy_policy;
 
   return (
     <>
       <div
         dir={lang == "en" ? "ltr" : "rtl"}
-        className="rounded-2xl bg-secondary-color h-200 p-6 mt-4 mb-4 md:mt-6 md:mb-6"
+        className="rounded-2xl bg-secondary-color h-200 p-6 mt-4 mb-4 md:mt-6 md:mb-6 text-justify"
       >
         {/* The heading of the content */}
         <div className="text-center">
@@ -21,7 +21,7 @@ export default function ContentCard() {
           </h2>
         </div>
         {/* The introduction */}
-        <p className="text-text-color mt-8 mb-8 text-justify md:text-lg">
+        <p className="text-text-color mt-8 mb-10 text-justify md:text-lg">
           {content.intro_part_1}
           <span className="text-primary-color font-bold">
             {content.intro_highlight}
@@ -29,7 +29,7 @@ export default function ContentCard() {
           {content.intro_part_2}
         </p>
         {/* The information we collect */}
-        <div>
+        <div className="mb-10">
           <h3 className="font-semibold text-xl md:text-2xl mb-2 text-primary-color">
             {content.information_we_collect_heading}
           </h3>
@@ -37,11 +37,11 @@ export default function ContentCard() {
             {content.information_we_collect_paragraph_1}
           </p>
           <ul
-            className={`list-disc list-outside mt-4 space-y-2 marker:text-primary-color md:text-lg text-justify ${
+            className={`list-disc list-outside mt-4 space-y-2 marker:text-primary-color md:text-lg text-justify text-text-color ${
               lang == "en" ? "ml-4" : "mr-4"
             }`}
           >
-            <li className="">
+            <li>
               <span className="font-semibold">
                 {content.information_we_collect_personal_info_1}
               </span>
@@ -53,6 +53,28 @@ export default function ContentCard() {
               </span>
               {content.information_we_collect_usage_data_2}
             </li>
+          </ul>
+        </div>
+        {/* How we use the information */}
+        <div className="mb-10">
+          <h3 className="font-semibold text-xl md:text-2xl mb-2 text-primary-color">
+            {content.how_we_use_info_heading}
+          </h3>
+          <ul
+            className={`list-disc list-outside mt-4 space-y-2 marker:text-primary-color md:text-lg text-justify text-text-color ${
+              lang == "en" ? "ml-4" : "mr-4"
+            }`}
+          >
+            <li>
+              {content.how_we_use_info_item_1_1}
+              <span className="text-primary-color font-bold">
+                {content.how_we_use_info_item_1_2}
+              </span>
+              {content.how_we_use_info_item_1_3}
+            </li>
+
+            <li>{content.how_we_use_info_item_2}</li>
+            <li>{content.how_we_use_info_item_3}</li>
           </ul>
         </div>
       </div>
