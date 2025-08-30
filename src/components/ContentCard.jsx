@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import translations from "../locales/translations.json";
 
 export default function ContentCard() {
-  const [lang, setLang] = useState("en");
+  const [lang, setLang] = useState("ar");
   const content = translations[lang].privacy_policy;
 
   return (
@@ -20,7 +20,6 @@ export default function ContentCard() {
             {content.subtitle}
           </h2>
         </div>
-
         {/* The introduction */}
         <p className="text-text-color mt-8 mb-8 text-justify md:text-lg">
           {content.intro_part_1}
@@ -29,8 +28,33 @@ export default function ContentCard() {
           </span>
           {content.intro_part_2}
         </p>
-
-
+        {/* The information we collect */}
+        <div>
+          <h3 className="font-semibold text-xl md:text-2xl mb-2 text-primary-color">
+            {content.information_we_collect_heading}
+          </h3>
+          <p className="text-text-color">
+            {content.information_we_collect_paragraph_1}
+          </p>
+          <ul
+            className={`list-disc list-outside mt-4 space-y-2 marker:text-primary-color md:text-lg text-justify ${
+              lang == "en" ? "ml-4" : "mr-4"
+            }`}
+          >
+            <li className="">
+              <span className="font-semibold">
+                {content.information_we_collect_personal_info_1}
+              </span>
+              {content.information_we_collect_personal_info_2}
+            </li>
+            <li>
+              <span className="font-semibold">
+                {content.information_we_collect_usage_data_1}
+              </span>
+              {content.information_we_collect_usage_data_2}
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );
