@@ -1,11 +1,5 @@
 {
     "en": {
-      "app": {
-        "title": "Drop Me, Your Recycling Partner!",
-        "welcome": "Welcome to Drop Me, Your Recycling Partner!",
-        "about_paragraph_1": "At Drop Me, we empower you to make sustainable choices effortlessly. Our app is designed to make recycling rewarding, convenient, and impactful. You can easily track your recycling contributions, earn points, and participate in ongoing community competitions through Drop Me. Our goal is to create a cleaner, greener future by working together.",
-        "about_paragraph_2": "Whether you're a first-time recycler or a seasoned environmental advocate, Drop Me is here to support you in every step of your journey. Join us in transforming waste into opportunity and improving our communities!"
-      },
       "privacy_policy": {
         "title": "Privacy Policy",
         "subtitle": "Your Privacy, Our Priority",
@@ -23,12 +17,6 @@
       }
     },
     "ar": {
-      "app": {
-        "title": "دروب مي، شريكك في إعادة التدوير!",
-        "welcome": "مرحباً بك في Drop Me، شريكك في إعادة التدوير!",
-        "about_paragraph_1": "في Drop Me، نؤمن بتمكينك لاتخاذ خيارات مستدامة بسهولة. تم تصميم تطبيقنا لجعل إعادة التدوير مجزية، مريحة، وذات تأثير. من خلال Drop Me، يمكنك بسهولة تتبع مساهماتك في إعادة التدوير، كسب النقاط، والمشاركة في المسابقات المجتمعية. هدفنا هو خلق مستقبل أنظف وأكثر خضرة من خلال العمل معاً.",
-        "about_paragraph_2": "سواء كنت تقوم بإعادة التدوير لأول مرة أو كنت من المدافعين المخضرمين عن البيئة، فإن Drop Me هنا لدعمك في كل خطوة من رحلتك. انضم إلينا في تحويل النفايات إلى فرص وتحسين مجتمعاتنا!"
-      },
       "privacy_policy": {
         "title": "سياسة الخصوصية",
         "subtitle": "خصوصيتك، أولويتنا",
