@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import translations from "../locales/translations.json";
+import { motion, AnimatePresence } from "framer-motion";
 
-export default function ContentCard({lang}) {
+export default function ContentCard({ lang }) {
   const content = translations[lang].privacy_policy;
 
   return (
     <>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={lang}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          transition={{ duration: 0.3 }}
+        >
       <div
         dir={lang == "en" ? "ltr" : "rtl"}
         className="rounded-2xl bg-secondary-color p-6 mt-4 mb-4 md:mt-6 md:mb-6 text-justify"
@@ -94,6 +103,9 @@ export default function ContentCard({lang}) {
           </div>
         </div>
       </div>
+      </motion.div>
+      </AnimatePresence>
+
     </>
   );
 }
