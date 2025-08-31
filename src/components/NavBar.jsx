@@ -10,7 +10,7 @@ export default function NavBar({ lang, TranslateFunc }) {
             <img alt="Drom me logo" src={dropmeLogo} className="w-24 md:w-32" />
           </div>
           <div className="flex-none">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal px-1 ">
               <li>
                 <button
                   className="btn bg-primary-color text-white border-0 rounded-3xl"

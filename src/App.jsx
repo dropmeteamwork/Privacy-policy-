@@ -1,4 +1,5 @@
 import "./App.css";
+import React, { useRef } from "react";
 import NavBar from "./components/NavBar";
 import ContentCard from "./components/ContentCard";
 import Footer from "./components/Footer";
